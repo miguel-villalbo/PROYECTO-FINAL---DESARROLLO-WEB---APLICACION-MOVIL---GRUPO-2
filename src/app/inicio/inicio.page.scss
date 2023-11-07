@@ -1,0 +1,21 @@
+ion-content {
+    --background: linear-gradient(0deg, rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url('https://i.pinimg.com/564x/06/b5/c1/06b5c1282a2aa4f74990ca3c748a2f1f.jpg') no-repeat center center / cover;
+
+  }
+.centrado {
+    position: absolute;
+    top: 50%;      
+    left: 50%;     
+    transform: translate(-50%, -50%); 
+    width: 60%;
+    height: 23%;
+    background-color: #ffffff;
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+  }
+  .centrar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;         
+  }

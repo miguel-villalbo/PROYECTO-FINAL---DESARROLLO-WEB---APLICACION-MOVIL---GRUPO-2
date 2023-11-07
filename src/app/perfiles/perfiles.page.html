@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="color: black; font-weight: bold;">MEDICAMENTOS!!</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button style="color: black;" defaultHref="sinrecetapi"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="custom-card">
+    <ion-card-header class="custom-header">
+        <img src="{{profileData.imagePath}}" alt="">
+        <ion-card-title class="custom-title">{{profileData.name}}</ion-card-title>
+        <ion-card-subtitle class="custom-subtitle black-bold">Codigo: {{profileData.code}}</ion-card-subtitle>
+        <ion-card-subtitle class="custom-subtitle">Descripcion: {{profileData.description}}</ion-card-subtitle>
+        <ion-card-subtitle class="custom-subtitle">Precio Q: {{profileData.price}}</ion-card-subtitle>
+        <ion-card-subtitle class="custom-subtitle">Cantidad Disponible: {{profileData.quantity}}</ion-card-subtitle>
+    </ion-card-header>
+</ion-card>
+
+</ion-content>

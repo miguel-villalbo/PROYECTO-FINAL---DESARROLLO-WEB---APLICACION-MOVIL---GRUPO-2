@@ -1,0 +1,23 @@
+ion-toolbar {
+    --background: linear-gradient(0deg, rgba(65, 169, 183, 0.7),rgba(0,0,0,0.1)), url('https://i.pinimg.com/564x/ce/78/6d/ce786dca55a095217ab036c78bf4a39c.jpg') no-repeat center center / cover;
+  }
+  
+  .custom-card {
+    border-radius: 15px; 
+    background-color: #e1f5fe; 
+    color: white; 
+}
+
+.custom-header {
+    text-align: center; 
+}
+
+.custom-title {
+    font-weight: bold;     color: black; 
+}
+
+.custom-subtitle {
+    color: black; 
+    font-weight: bold; 
+}
+
